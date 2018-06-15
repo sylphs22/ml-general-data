@@ -1,6 +1,6 @@
 import json
 import requests
-url= "http://127.0.0.1:8080/const"
+url= "http://0.0.0.0:8080/test"
 json2 = {"Target Output":"Spotify Streams","track_id":419,"artist_id":267,"Release Date":'21/04/2017',"Campaign Launch":'21/04/2017',
      "Campaign End":'27/04/2017','budget':1000,'facebook_post_cpm':4.85,'facebook_post_ctr':2.5,
      'facebook_video_cpm':3.71,'facebook_video_ctr':1.49,'facebook_video_vtr':10,

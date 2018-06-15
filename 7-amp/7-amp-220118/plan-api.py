@@ -14,6 +14,9 @@ from sklearn.externals import joblib
 from scipy.optimize import minimize
 app = Flask(__name__)
 
+@app.route('/test', methods=['POST'])
+def test():
+    return  jsonify([{"capitalfm_com_clicks":6913,"capitalfm_com_impressions":1797,"loopme_clicks":5783,"loopme_impressions":6206,"jet_capital_impacts":27280,"jet_heart_impacts":84424,"jet_kiss_impacts":46371,"paid_facebook_post_impressions":14850,"paid_facebook_clicks":5154,"paid_facebook_video":20618,"paid_youtube_impressions":14197,"paid_youtube_views":34780,"paid_facebook_instagram_video_impressions":0,"paid_facebook_instagram_video_clicks":10000,"paid_facebook_instagram_post_impressions":15384,"paid_facebook_instagram_post_clicks":2102,"paid_twitter_impressions":287,"paid_twitter_clicks":2822,"paid_facebook_video_impressions":87205,"Itunes Downloads":285999}])
 
 @app.route('/const', methods=['POST'])
 def main():
@@ -378,4 +381,5 @@ def g9(x):
 if __name__ == '__main__':
     
     random.seed(9001)
-    app.run(port=8080)
+    app.run(host='0.0.0.0',port=8080)
+  #  app.run(port=8080)

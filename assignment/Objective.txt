@@ -1,0 +1,5 @@
+1. The file data.csv contains some authors and text from their popular novels
+2. We need to prepare a classification model to predict the author name from given text.
+3. More than the results, we are interested in the Process.
+4. Be as creative as you can in feature generation.
+5. Again, we are not concerned about accuracy results, but more attention will be paid to what you can do with this data.

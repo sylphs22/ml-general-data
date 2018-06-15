@@ -1,0 +1,13 @@
+[u'id', u'text', u'author']
+
+id  :  Depicts the identification number of the text
+
+text : Writeup given by a author
+
+author: 3 authors [rowling,chetan,dan brown]
+
+
+Task:
+
+To build a model to classify a text given,which author may have probably written
+
